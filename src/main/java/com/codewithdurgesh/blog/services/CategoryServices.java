@@ -17,6 +17,13 @@ public interface CategoryServices {
     void deleteCategory(Integer categoryId);
     //get
 
+
+
+
+
+
+
+
     CategoryDto getCategory (Integer categoryId);
 
     //getall
