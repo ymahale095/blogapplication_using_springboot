@@ -23,6 +23,12 @@ public class Category {
 @Column(name="title",length = 100,nullable = false)
     private String categoryTitle;
 
+
+
+
+
+
+
    @Column(name = "decription")
     private String categoryDecreption;
 }
