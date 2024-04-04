@@ -7,7 +7,7 @@ public interface CategoryRepo extends JpaRepository<Category,Integer> {
 
 
 
-// commeets 
+// commeets
 
 
 
