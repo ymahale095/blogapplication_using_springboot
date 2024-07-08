@@ -13,6 +13,9 @@ public interface UserService {
 
     UserDto getById(Integer userId);
 
+
+
+
     List<UserDto> getallUser();
 
 

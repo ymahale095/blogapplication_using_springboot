@@ -27,6 +27,9 @@ public class UserController {
         return new ResponseEntity<>(createuserDto, HttpStatus.CREATED);
     }
 
+
+
+
     @PutMapping("/update/{userId}")
     public ResponseEntity<UserDto> updateUser (@RequestBody UserDto userDto,@PathVariable("userId") Integer uid)
     {

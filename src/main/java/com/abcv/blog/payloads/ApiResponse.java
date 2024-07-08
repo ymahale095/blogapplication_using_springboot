@@ -12,6 +12,9 @@ import lombok.Setter;
 public class ApiResponse {
 
 
+
+
+
     private String msg;
     private boolean success;
 }
