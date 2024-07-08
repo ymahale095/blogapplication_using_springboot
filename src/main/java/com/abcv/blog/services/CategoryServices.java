@@ -1,6 +1,6 @@
-package com.codewithdurgesh.blog.services;
+package com.abcv.blog.services;
 
-import com.codewithdurgesh.blog.payloads.CategoryDto;
+import com.abcv.blog.payloads.CategoryDto;
 
 import java.util.List;
 

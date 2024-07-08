@@ -1,9 +1,11 @@
-package com.codewithdurgesh.blog.repositories;
+package com.abcv.blog.repositories;
 
-import com.codewithdurgesh.blog.entities.Category;
+import com.abcv.blog.entities.Category;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CategoryRepo extends JpaRepository<Category,Integer> {
+
+
 
 
 

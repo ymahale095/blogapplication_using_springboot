@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.entities;
+package com.abcv.blog.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;

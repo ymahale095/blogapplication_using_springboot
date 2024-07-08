@@ -1,9 +1,9 @@
-package com.codewithdurgesh.blog.ServiceImpl;
+package com.abcv.blog.ServiceImpl;
 
-import com.codewithdurgesh.blog.entities.Category;
-import com.codewithdurgesh.blog.payloads.CategoryDto;
-import com.codewithdurgesh.blog.repositories.CategoryRepo;
-import com.codewithdurgesh.blog.services.CategoryServices;
+import com.abcv.blog.entities.Category;
+import com.abcv.blog.repositories.CategoryRepo;
+import com.abcv.blog.services.CategoryServices;
+import com.abcv.blog.payloads.CategoryDto;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -21,6 +21,8 @@ public class CategoryServiceImpe implements CategoryServices {
 
         Category cat=this.modelMapper.map(categoryDto,Category.class);
         Category addedCat=this.categoryRepo.save(cat);
+
+
         return this.modelMapper.map(addedCat,CategoryDto.class);
     }
 

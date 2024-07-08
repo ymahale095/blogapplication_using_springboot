@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog;
+package com.abcv.blog;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.boot.SpringApplication;

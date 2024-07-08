@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.payloads;
+package com.abcv.blog.payloads;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;

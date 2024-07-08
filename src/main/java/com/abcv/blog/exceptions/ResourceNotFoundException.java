@@ -1,4 +1,4 @@
-package com.codewithdurgesh.blog.exceptions;
+package com.abcv.blog.exceptions;
 
 import lombok.Getter;
 import lombok.Setter;

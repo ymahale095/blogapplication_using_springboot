@@ -1,10 +1,10 @@
-package com.codewithdurgesh.blog.ServiceImpl;
+package com.abcv.blog.ServiceImpl;
 
-import com.codewithdurgesh.blog.entities.User;
-import com.codewithdurgesh.blog.exceptions.ResourceNotFoundException;
-import com.codewithdurgesh.blog.payloads.UserDto;
-import com.codewithdurgesh.blog.repositories.UserRepo;
-import com.codewithdurgesh.blog.services.UserService;
+import com.abcv.blog.entities.User;
+import com.abcv.blog.exceptions.ResourceNotFoundException;
+import com.abcv.blog.payloads.UserDto;
+import com.abcv.blog.services.UserService;
+import com.abcv.blog.repositories.UserRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -16,6 +16,8 @@ public class UserServiceImp implements UserService {
 
     @Autowired
       private  UserRepo userRepo;
+
+
     @Autowired
     private ModelMapper modelMapper;
     @Override

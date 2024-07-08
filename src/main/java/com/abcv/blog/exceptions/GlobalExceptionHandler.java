@@ -1,6 +1,6 @@
-package com.codewithdurgesh.blog.exceptions;
+package com.abcv.blog.exceptions;
 
-import com.codewithdurgesh.blog.payloads.ApiResponse;
+import com.abcv.blog.payloads.ApiResponse;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;

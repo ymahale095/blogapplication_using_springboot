@@ -1,9 +1,7 @@
-package com.codewithdurgesh.blog.controllers;
+package com.abcv.blog.controllers;
 
-import com.codewithdurgesh.blog.payloads.ApiResponse;
-import com.codewithdurgesh.blog.payloads.UserDto;
-import com.codewithdurgesh.blog.repositories.UserRepo;
-import com.codewithdurgesh.blog.services.UserService;
+import com.abcv.blog.payloads.UserDto;
+import com.abcv.blog.services.UserService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -22,7 +20,7 @@ public class UserController {
     private UserService userService;
 
     @PostMapping("/add")
-    public ResponseEntity<UserDto> createUser ( @Valid @RequestBody UserDto userDto){
+    public ResponseEntity<UserDto> createUser (@Valid @RequestBody UserDto userDto){
 
 
         UserDto createuserDto =this.userService.createUser(userDto);
